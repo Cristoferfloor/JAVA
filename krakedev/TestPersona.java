@@ -5,13 +5,9 @@ public class TestPersona {
     public static void main(String[] args) {
 		
 		
-		Persona p = new Persona();
+		Persona p = new Persona("arie",12,2.3);
 		
-		p.setNombre("Ariel");
 		
-		p.setEdad(12);
-		
-		p.setEstatura(1.23);
 		
 		
 		System.out.println("Nombre :" + p.getNombre());

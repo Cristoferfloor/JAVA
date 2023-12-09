@@ -8,6 +8,13 @@ public class Persona {
 
 	private double estatura;
 
+	public Persona(String Nombre,int edad, double estatura){
+
+		this.Nombre=Nombre;
+		this.edad=edad;
+		this.estatura=estatura;
+	}
+
 	public String getNombre() {	
 		return this.Nombre;
 	}

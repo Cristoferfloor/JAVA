@@ -6,25 +6,12 @@ public class TestProducto {
 
         Producto productoA, productoB, productoC;
 
-        productoA = new Producto();
-        productoB = new Producto();
-        productoC = new Producto();
+        productoA = new Producto("Paracetamol","Alivio del dolor",5.99,100);
+        productoB = new Producto("Ibuprofeno","Antiinflamatorio",7.49,75);
+        productoC = new Producto("Vitamina C","Suplemento nutricional",9.99,50);
+
 
         
-        productoA.setNombre("Paracetamol");
-        productoA.setDescripcion("Alivio del dolor");
-        productoA.setPrecio(5.99);
-        productoA.setStockActual(100);
-
-        productoB.setNombre("Ibuprofeno");
-        productoB.setDescripcion("Antiinflamatorio");
-        productoB.setPrecio(7.49);
-        productoB.setStockActual(75);
-
-        productoC.setNombre("Vitamina C");
-        productoC.setDescripcion("Suplemento nutricional");
-        productoC.setPrecio(9.99);
-        productoC.setStockActual(50);
 
         
         System.out.println("Producto A: " + productoA.getNombre() + ", Descripción=" + productoA.getDescripcion() +
