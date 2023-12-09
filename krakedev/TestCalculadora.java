@@ -18,7 +18,7 @@ public class TestCalculadora {
 
 
         
-
+    
         
         promedio = calcu.promediar(7, 8, 10);
 
