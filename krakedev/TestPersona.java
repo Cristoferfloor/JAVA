@@ -7,17 +7,17 @@ public class TestPersona {
 		
 		Persona p = new Persona();
 		
-		p.Nombre = " Ariel";
+		p.setNombre("Ariel");
 		
-		p.edad = 23 ;
+		p.setEdad(12);
 		
-		p.estatura = 1.80;
+		p.setEstatura(1.23);
 		
 		
-		System.out.println("Nombre :" + p.Nombre);
-		System.out.println("Edad :" + p.edad);
-		System.out.println("Estatura :" + p.estatura);
-
+		System.out.println("Nombre :" + p.getNombre());
+		System.out.println("Edad :" + p.getEdad());
+		System.out.println("Estatura :" + p.getEstatura());
+  
 	}
     
 }
